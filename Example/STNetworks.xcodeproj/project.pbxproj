@@ -295,10 +295,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-STNetworks_Example/Pods-STNetworks_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Networks/Networks.framework",
 				"${BUILT_PRODUCTS_DIR}/STNetworks/STNetworks.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Networks.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/STNetworks.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

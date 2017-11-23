@@ -1,7 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/zhangxiaoshan618/podSpecsExercise.git'
 use_frameworks!
 
 target 'STNetworks_Example' do
   pod 'STNetworks', :path => '../'
+  pod 'Networks'
 
   target 'STNetworks_Tests' do
     inherit! :search_paths
