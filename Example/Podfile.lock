@@ -12,7 +12,16 @@ PODS:
     - FBSnapshotTestCase (~> 2.0)
     - Nimble (~> 7.0)
   - Quick (1.2.0)
-  - STNetworks (0.1.1):
+  - STNetworks (0.1.2):
+    - Networks (~> 0.1.1)
+    - STNetworks/Base (= 0.1.2)
+    - STNetworks/Category (= 0.1.2)
+    - STNetworks/Tool (= 0.1.2)
+  - STNetworks/Base (0.1.2):
+    - Networks (~> 0.1.1)
+  - STNetworks/Category (0.1.2):
+    - Networks (~> 0.1.1)
+  - STNetworks/Tool (0.1.2):
     - Networks (~> 0.1.1)
 
 DEPENDENCIES:
@@ -33,7 +42,7 @@ SPEC CHECKSUMS:
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  STNetworks: 53aee9d883811d488bf679ef7990a57bf446b66a
+  STNetworks: 5bebd71057ff620cfee44d8f33ddabee0c3f48df
 
 PODFILE CHECKSUM: 09c857a858b6ce5482235974cdf13aa2a0d6e06a
 

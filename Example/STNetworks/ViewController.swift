@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         let name = "这是一个测试私有库引用私有specs仓库的工程"
         print(name.addSuffix())
         print(name.st_addSuffix())
+        print(name.stbase_addSuffix())
     }
 
     override func didReceiveMemoryWarning() {
