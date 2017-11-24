@@ -10,6 +10,6 @@ import Networks
 
 extension String {
     public func st_addSuffix() -> String {
-        return self.addSuffix() + "——STNetworks(version:0.1.0)"
+        return self.addSuffix() + "——STNetworks(version:0.1.1)"
     }
 }
