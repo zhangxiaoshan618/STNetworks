@@ -9,6 +9,6 @@ import Foundation
 
 extension String {
     public func stcategory_addSuffix() -> String {
-        return self.st_addSuffix() + "--category"
+        return self + "--category"
     }
 }

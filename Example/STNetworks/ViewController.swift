@@ -18,6 +18,11 @@ class ViewController: UIViewController {
         print(name.addSuffix())
         print(name.st_addSuffix())
         print(name.stbase_addSuffix())
+        
+        let base = STNBaseView(frame: CGRect(x: 100, y: 100, width: 40, height: 40))
+        
+        view.addSubview(base)
+        
     }
 
     override func didReceiveMemoryWarning() {

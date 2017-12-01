@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'STNetworks'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A exercise of STNetworks.'
 
 # This description is used to generate tags and improve search results.
@@ -31,15 +31,21 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.subspec 'Base' do |b|
-    b.source_files = 'STNetworks/Classes/*.swift', 'STNetworks/Classes/Base/**/*'
+    b.source_files = 'STNetworks/*.swift', 'STNetworks/Base/Classes/*.swift'
+    b.resource_bundles = {
+        'Base' => ['STNetworks/Base/Assets/Images.xcassets']
+    }
   end
 
   s.subspec 'Category' do |b|
-    b.source_files = 'STNetworks/Classes/*.swift', 'STNetworks/Classes/Category/**/*'
+    b.source_files = 'STNetworks/Category/Classes/*.swift'
+    b.resource_bundles = {
+        'Category' => ['STNetworks/Category/Assets/Images.xcassets']
+    }
   end
 
   s.subspec 'Tool' do |b|
-    b.source_files = 'STNetworks/Classes/*.swift', 'STNetworks/Classes/Tool/**/*'
+    b.source_files = 'STNetworks/*.swift', 'STNetworks/Tool/Classes/*.swift'
   end
 
   #s.source_files = 'STNetworks/Classes/**/*'
